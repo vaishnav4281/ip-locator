@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+# 🌐 IP Locator
 
-## Project info
+A modern web application that helps users locate and analyze IP addresses using real-time geolocation data.
 
-**URL**: https://lovable.dev/projects/d8bf4526-f5e4-4a96-9a42-4fe590043242
+> 🚀 Developed as part of the **CyberDome Internship Program**
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- 🌍 Real-time IP tracking and lookup
+- 📍 Displays geolocation data: country, region, city, latitude, longitude
+- 🕵️ Proxy detection and ASN data
+- ⚡ Clean, fast, and responsive UI
+- 📄 Export CSV data (bulk supported)
+- 🛠️ Developer-friendly codebase with modular structure
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d8bf4526-f5e4-4a96-9a42-4fe590043242) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Technologies Used
 
-**Use your preferred IDE**
+| Stack            | Tools & Frameworks                      |
+|------------------|------------------------------------------|
+| **Frontend**     | [React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/) |
+| **Build Tool**   | [Vite](https://vitejs.dev/)             |
+| **Styling**      | [Tailwind CSS](https://tailwindcss.com/) |
+| **UI Components**| [shadcn/ui](https://ui.shadcn.com/)     |
+| **State Mgmt**   | React Context API                       |
+| **CSV Handling** | Built-in export support                 |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📦 Installation
 
-Follow these steps:
+1. **Clone the Repository**
+```bash
+git clone https://github.com/vaishnav4281/ip-locator.git
+cd ip-locator
+````
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. **Install Dependencies**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. **Start Development Server**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧪 Development
 
-**Use GitHub Codespaces**
+* Code quality ensured with **ESLint**
+* Typed and safe codebase using **TypeScript**
+* Built with scalable, modern architecture
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📊 Sample Output (CSV Preview)
 
-This project is built with:
+```
+IP Address       Country    Region       City     Latitude   Longitude   Timezone  ISP        Domain     ASN        Proxy
+---------------------------------------------------------------------------------------------------------------
+142.250.70.       US       California   Mountain  37.38605  -122.084     -07:00     Google     google.com AS15169   No
+57.144.204.       IN       Tamil Nadu   Chennai   13.0879    80.27848    +05:30     Instagram  instagram  AS32934   No
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📜 License
 
-Simply open [Lovable](https://lovable.dev/projects/d8bf4526-f5e4-4a96-9a42-4fe590043242) and click on Share -> Publish.
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for more details.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 👨‍💻 Author
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Vaishnav K**
+🔗 [GitHub](https://github.com/vaishnav4281)
+📫 Email: [k.vaishnav.ae@gmail.com](mailto:k.vaishnav.ae@gmail.com)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+> Built with ❤️ for the CyberDome initiative
+
+```
+
+### ✅ To use this:
+
+1. Create or open your `README.md` file inside the project folder.
+2. Paste the content above.
+3. Customize any missing links or metadata if needed.
+
+Let me know if you want this in **dark theme markdown**, a **PDF version**, or to include **badges (build, license, etc.)**.
+```
