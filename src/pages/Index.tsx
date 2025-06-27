@@ -63,13 +63,13 @@ const Index = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            IP Geolocation
+          🌐 IP Intelligence
             <span className="bg-gradient-to-r from-red-500 to-blue-600 bg-clip-text text-transparent">
               {" "}Lookup
             </span>
           </h1>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Discover detailed location information for any IP address or domain. 
+          Gain real-time insights into any IP address or domain.
             Get insights about country, city, ISP, timezone, and security details.
           </p>
         </div>
@@ -204,8 +204,8 @@ const Index = () => {
         )}
 
         {/* Footer */}
-        <div className="text-center mt-16 text-gray-500">
-          <p>Powered by IP2Location.io API</p>
+        <div className="fixed bottom-4 left-1/2 -translate-x-1/2 text-gray-500">
+          <p className="text-sm">Built by Vaishnav K</p>
         </div>
       </div>
     </div>

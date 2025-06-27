@@ -43,21 +43,7 @@ export const BulkUpload = ({ onBulkUpload, isLoading }: BulkUploadProps) => {
 
   return (
     <div className="space-y-6">
-      {/* Info Card */}
-      <Card className="bg-blue-50 border-blue-200">
-        <CardContent className="p-4">
-          <div className="flex items-start gap-3">
-            <Info className="w-5 h-5 text-blue-600 mt-0.5" />
-            <div>
-              <h4 className="font-medium text-blue-900 mb-1">Bulk Domain Processing</h4>
-              <p className="text-sm text-blue-700">
-                Enter domains or IP addresses (one per line) to get location data for multiple entries at once. 
-                Domains will be automatically resolved to IP addresses.
-              </p>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
+
 
       {/* Upload Card */}
       <Card className="bg-white border-gray-200 shadow-sm">
