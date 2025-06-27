@@ -203,10 +203,6 @@ const Index = () => {
           </>
         )}
 
-        {/* Footer */}
-        <div className="fixed bottom-4 left-1/2 -translate-x-1/2 text-gray-500">
-          <p className="text-sm">Built by Vaishnav K</p>
-        </div>
       </div>
     </div>
   );
