@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🌐 IP Locator
 
 A modern web application that helps users locate and analyze IP addresses using real-time geolocation data.
@@ -88,17 +88,3 @@ See the [LICENSE](LICENSE) file for more details.
 ---
 
 > Built with ❤️ for the CyberDome initiative
-
-```
-
-### ✅ To use this:
-
-1. Create or open your `README.md` file inside the project folder.
-2. Paste the content above.
-3. Customize any missing links or metadata if needed.
-
-Let me know if you want this in **dark theme markdown**, a **PDF version**, or to include **badges (build, license, etc.)**.
-```
-=======
-
->>>>>>> 99ba7f6baedc59727feb5792590f6a50158738ce
