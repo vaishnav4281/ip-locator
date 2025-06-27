@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌐 IP Locator
 
 A modern web application that helps users locate and analyze IP addresses using real-time geolocation data.
@@ -98,3 +99,6 @@ See the [LICENSE](LICENSE) file for more details.
 
 Let me know if you want this in **dark theme markdown**, a **PDF version**, or to include **badges (build, license, etc.)**.
 ```
+=======
+
+>>>>>>> 99ba7f6baedc59727feb5792590f6a50158738ce
